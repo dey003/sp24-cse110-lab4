@@ -25,3 +25,21 @@
 **12C.** `student.greeting()` \
 **12D.** `student['Favorite Teacher'].name` \
 **12E.** `student.courseLoad[0]`
+
+**13A.** `'32'`. `2` gets converted into a string. \
+**13B.** `1`. `'3'` gets converted into a number. \
+**13C.** `3`. `null` gets converted into the number `0`. \
+**13D.** `'3null'`. `null` becomes a string. \
+**13E.** `4`. `true` becomes the number `1`. \
+**13F.** `0`. `false` and `null` both become the number `0`. \
+**13G.** `'3undefined'`. `undefined` becomes a string. \
+**13H.** `NaN`. `'3'` becomes a number and JavaScript tries to convert `undefined` into a number, which causes it to become `NaN`.
+
+**14A.** `true`. `'2'` becomes a number. \
+**14B.** `false`. Alphabetically, the string `'1'` is less than the string `'2'`. \
+**14C.** `true`. The string `'2'` becomes a number due to the double equality sign `==`. \
+**14D.** `false`. The triple equality sign `===` does not perform type conversion. \
+**14E.** `false`. `true` becomes the number `1`. \
+**14F.** `true`. The explicit `Boolean()` conversion becomes `true` for any intuitively "non-empty" input, so `Boolean(2)` becomes `true`.
+
+**15.** `==` performs type conversion before the comparison, while `===` does not.
