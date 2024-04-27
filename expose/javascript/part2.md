@@ -43,3 +43,7 @@
 **14F.** `true`. The explicit `Boolean()` conversion becomes `true` for any intuitively "non-empty" input, so `Boolean(2)` becomes `true`.
 
 **15.** `==` performs type conversion before the comparison, while `===` does not.
+
+**17.** `[2, 4, 6]` is the array returned by line 13. The `modifyArray` function takes an array and a callback function as input. It calls the callback function on each item in the array, and outputs an array containing each result. The `doSomething` function that is given to `modifyArray` as the callback function multiplies its input by 2, so line 13 multiplies each item in the array by 2.
+
+**19.** The output is `1`, `4`, `3`, and `2` on separate lines in that order.
